@@ -1,0 +1,48 @@
+@import url(./mixin.scss);
+
+
+
+.wrapper{
+    position: relative;
+    opacity: 0.9;
+    width: 1000px;
+    height: 500px;
+    margin:  0 auto;
+}
+
+#all{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+
+.interpretation{
+    width: 700px;
+    margin-top: 20px  
+}
+
+.wrapp{
+    @include flexCenter();
+}
+
+.user{
+    width: 50px;
+    height: 5px;
+    margin-left: 20px;
+}
+
+.olga1{
+    background-color: green;
+}
+
+.ivan1{
+    background-color: blue;
+}
+
+.mark1{
+    background-color: red;
+}
